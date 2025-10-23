@@ -215,7 +215,6 @@ footer .apropos{
 }
 .card2 button{
     display: block;
-    margin-left: 290px;
     margin-top: 20px;
     padding: 7px;
     color: white;
@@ -247,7 +246,7 @@ header .head i{
     font-size: 35px;
     margin-left: 100%;
     }
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 500px) {
     header nav ul{
         display: none;
     }
@@ -258,7 +257,7 @@ header .head i{
         font-size: 9px;
     }
     .hero img{
-        width: 300px;
+        width: 200px;
     }
     .articles, .cats{
         display: block;
@@ -267,8 +266,16 @@ header .head i{
         display: block;
 
     }
+    .card p{
+        width: 250px;
+    }
+    .card2{
+        width: 100px;
+    }
+    .card2 input{
+        width: 100px;
+    }
     footer{
         display: block;
     }
 }
-
