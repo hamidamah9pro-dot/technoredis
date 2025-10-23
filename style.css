@@ -247,7 +247,7 @@ header .head i{
     font-size: 35px;
     margin-left: 100%;
     }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 390px) {
     header nav ul{
         display: none;
     }
@@ -271,3 +271,4 @@ header .head i{
         display: block;
     }
 }
+
